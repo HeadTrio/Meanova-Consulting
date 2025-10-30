@@ -4,7 +4,7 @@ import { withPayload } from '@payloadcms/next/withPayload'
 const nextConfig = {
   // Your Next.js config here
   images: {
-   domains: ['mea-nova-consulting.vercel.app', 'meanova.de'],
+   domains: ['meanova-consulting.vercel'],
     unoptimized: true,
      formats: ['image/avif', 'image/webp'],
   },
