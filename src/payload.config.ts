@@ -56,7 +56,7 @@ export default buildConfig({
       collections: {
         media: true, // Media collection uploads go to Vercel Blob
       },
-      token: process.env.BLOB_READ_WRITE_TOKEN || "vercel_blob_rw_a33k2k3LHGp3BLlE_VI4gwBk5tTRjRMJDPdWrNDbvd4Z5Oj", // Set in Vercel env
+      token: process.env.BLOB_READ_WRITE_TOKEN || "vercel_blob_rw_BV0rLb0oACmGdku1_zgwv1Raht7VMNzXhUUiJKxBAkVIPjB", // Set in Vercel env
     }),
   ],
 })
