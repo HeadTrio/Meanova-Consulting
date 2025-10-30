@@ -9,7 +9,6 @@ export default async function generatePageMetadata(params, fallback = {}) {
       next: { revalidate: 60 }
     });
 
-    console.log("metadata response status:", metadataResponse.status);
 
     if (!metadataResponse.ok) {
       throw new Error(`Failed to fetch data: ${metadataResponse.statusText}`);

@@ -7,7 +7,7 @@ const Kontakt = ({
     FormHeading,
     DatenschutzerklarungLink
 }) => {
-    console.log('DatenschutzerklarungLink', DatenschutzerklarungLink)
+
     return (
         <>
             <section className='py-32 md:py-50 lg:py-80' id='kontakt'>
