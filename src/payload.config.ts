@@ -29,7 +29,7 @@ export default buildConfig({
   },
   cors: [
   'https://meanova-consulting.vercel.app',
-  'http://localhost:3000'
+  'http://localhost:3000' 
 ],
   collections: [Users, Media],
   globals: [
